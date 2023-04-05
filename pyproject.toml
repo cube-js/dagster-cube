@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dagster-cube"
+version = "0.1.0"
+description = "Dagster library to interact with Cube.js"
+authors = ["Olivier Dupuis <odupuis@lantrns.co>"]
+packages = [{include = "dagster_cube"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+dagster = "1.2.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
