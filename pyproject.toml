@@ -2,7 +2,7 @@
 name = "dagster-cube"
 version = "0.1.0"
 description = "Dagster library to interact with Cube.js"
-authors = ["Olivier Dupuis <odupuis@lantrns.co>"]
+authors = ["Olivier Dupuis <odupuis@lantrns.co>", "Maksim Leanovich <maxim@cube.dev>"]
 packages = [{include = "dagster_cube"}]
 
 [tool.poetry.dependencies]
