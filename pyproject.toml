@@ -6,7 +6,7 @@ authors = ["Olivier Dupuis <odupuis@lantrns.co>", "Maksim Leanovich <maxim@cube.
 packages = [{include = "dagster_cube"}]
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.11"
+python = ">=3.8"
 dagster = "^1.2.0"
 
 [build-system]
